@@ -2,7 +2,7 @@
 
 # Explore the raw data using the default dataset
 
-1. When you create a lekehouse or a datawarehouse, a [default powerBI](https://learn.microsoft.com/en-us/fabric/data-warehouse/datasets#understand-whats-in-the-default-power-bi-dataset) dataset is created. 
+1. When you create a lekehouse or a datawarehouse, a [default powerBI](https://learn.microsoft.com/en-us/fabric/data-warehouse/datasets#understand-whats-in-the-default-power-bi-dataset) dataset is created.</br>  
 ![default ds](../Images/default%20dataset.png)
 
 2. From the dataset pane, you can view all the tables. You have options to create reports either from scratch, paginated report, or let Power BI automatically create a report based on your data. For this tutorial, select **Auto-create** under **Create a report**.

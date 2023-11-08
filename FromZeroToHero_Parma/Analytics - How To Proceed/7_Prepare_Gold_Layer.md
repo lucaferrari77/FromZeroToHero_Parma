@@ -91,4 +91,4 @@ ORDER BY DD.Date ASC, DE.PreferredName ASC, DE.Employee ASC
     ![shortcut8](../Images/shortcut_8.png)
 
 
-[**Go to the next step**](/FromZeroToHero_Parma/Analytics%20-%20How%20To%20Proceed/7_Prepare_Gold_Layer.md)
+[**Go to the next step**](/FromZeroToHero_Parma/Analytics%20-%20How%20To%20Proceed/8_Build_the_reports.md)

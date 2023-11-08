@@ -9,16 +9,22 @@ In this session you will cover Analytic and Real time scenarios using Microsoft 
 2. Your own active Azure Subscribtion
 3. Your own [Microsoft Fabric Trial](https://learn.microsoft.com/en-us/fabric/get-started/fabric-trial)
 
-## 1 - End to End Analytic scenario
+## What feature will you use during the session
+
 During this session you will explore Microsoft Fabric capabilities and you will use:
 1. Workspace
-2. Lakehouse/Warehouse to build the [Medallion architecture](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion)
+2. Lakehouse and Warehouse to build the [Medallion architecture](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion)
 3. Data Flow Gen2
 4. Pipelines
-5. Notebook
+5. Notebooks
 6. SQL Endpoints
 7. Datasets
-8. PowerBI report
+8. PowerBI reports
+9. EventStream
+10. KQL Database and Queryset
+12. Data Activator - Reflex
+
+## 1 - End to End Analytic scenario
 
 The following image shows the lakehouse end-to-end architecture. The components involved are described in the following list.
 ![Diagram of the end-to-end architecture of a lakehouse in Microsoft Fabric.](/FromZeroToHero_Parma/Images/lakehouse-end-to-end-architecture.png)
@@ -54,6 +60,6 @@ https://learn.microsoft.com/en-us/fabric/data-engineering/tutorial-lakehouse-get
 https://learn.microsoft.com/en-us/fabric/data-warehouse/tutorial-introduction
 
 The Real Time scenario is available [here](https://github.com/anshulsharmas/fabric-iss-demo)
-and it has been created by [Anshul Sharms](https://github.com/anshulsharmas)
+and it has been created by [***Anshul Sharms***](https://github.com/anshulsharmas)
 
-[**Go to the first step**](/FromZeroToHero_Parma/How%20To%20Proceed/1_Create_MS_Fabric_workspace.md)
+[**Go to the first step**](/FromZeroToHero_Parma/Analytics%20-%20How%20To%20Proceed/1_Create_MS_Fabric_workspace.md)

@@ -42,7 +42,7 @@ After you add these relationships, your data model is ready for reporting as sho
    ![report4](../Images/report_4.png)
 
 6. Select **New report** to start creating reports/dashboards in Power BI. On the Power BI report canvas, you can create reports to meet your business requirements by dragging required columns from the **Data** pane to the canvas and using one or more of available visualizations.</br>  
-   ![report5](//FromZeroToHero_Parma/Images/report_5.png)
+   ![report5](/FromZeroToHero_Parma/Images/report_5.png)
 
 7. Add a title:
    1. In the Ribbon, select **Text box**.
@@ -89,3 +89,5 @@ After you add these relationships, your data model is ready for reporting as sho
 16. Enter the name of your report as **Profit Reporting**.
 
 17. Select **Save**.
+
+[**Go to the next Scenario**](/FromZeroToHero_Parma/Real%20Time%20-%20ISS%20-%20How%20to%20proceed/1_ISS_Real_Time_Scenario.md)
