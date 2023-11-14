@@ -73,7 +73,7 @@ From the previous tutorial steps, we have raw data ingested from the source to t
 
 13. To validate the created tables, right click and select refresh on the **Bronze** lakehouse. The tables appear.
 
-   ![validate table](../Images/validate_tables.png)
+    ![validate table](../Images/validate_tables.png)
 
 Delta Tables are now available and you can use them to populate the **Silver layer**.
 
