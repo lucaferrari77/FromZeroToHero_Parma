@@ -18,9 +18,11 @@ In this step, you create a Fabric workspace. The workspace contains all the item
     1. **Advanced:** Under License mode, select Premium or Trial capacity and then choose a premium capacity that you have access to.
 
         Premium capacity:
+
         ![Premium Capacity](../Images/select-premium-capacity.png)
 
         Trial capacity:
+        
         ![Trial Capacity](../Images/select-trial-capacity.png)
    
 4. Select **Apply** to create and open the workspace
