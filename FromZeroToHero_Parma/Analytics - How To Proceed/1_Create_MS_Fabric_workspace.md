@@ -10,13 +10,18 @@ In this step, you create a Fabric workspace. The workspace contains all the item
       ![New workspace](../Images/create-new-workspace.png).
 
 3. Fill out the Create a workspace form with the following details:
-   1. Name: Enter *Fabric Lakehouse Tutorial*, and any extra characters to make the name unique.
+    1. Name: Enter *Fabric Lakehouse Tutorial*, and any extra characters to make the name unique.
    
-   2. Description: Enter an optional description for your workspace.</br>  
+    1. Description: Enter an optional description for your workspace.</br>  
       ![New Workspace details](../Images/create-workspace-details.png)
    
-   **3. Advanced:** Under License mode, select Premium capacity and then choose a premium capacity that you have access to.
-   ![Capacity](../Images/select-premium-capacity.png)
+    1. **Advanced:** Under License mode, select Premium or Trial capacity and then choose a premium capacity that you have access to.
+
+        Premium capacity:
+        ![Premium Capacity](../Images/select-premium-capacity.png)
+
+        Trial capacity:
+        ![Trial Capacity](../Images/select-trial-capacity.png)
    
 4. Select **Apply** to create and open the workspace
 
