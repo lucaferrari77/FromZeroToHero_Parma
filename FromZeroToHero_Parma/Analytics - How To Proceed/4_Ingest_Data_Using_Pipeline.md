@@ -20,43 +20,43 @@ In this section, you use the **Copy data activity** of the **Data Factory pipeli
 6. Under Source tab of the selected copy data activity, select **External** as **Data store type** and then select **+ New** to create a new connection to data source.</br>  
     ![data store](../Images/data-store-source-external.png)
 
-7. For this tutorial, all the sample data is available in this public container of Azure blob storage: `*https://azuresynapsestorage.blob.core.windows.net/sampledata*`. You connect to this container to copy data from it. On the **New connection** wizard, select **Azure Blob Storage** and then select **Continue**.</br>  
+7. For this tutorial, all the sample data is available in this public container of Azure blob storage: *`https://azuresynapsestorage.blob.core.windows.net/sampledata`*. You connect to this container to copy data from it. On the **New connection** wizard, select **Azure Blob Storage** and then select **Continue**.</br>  
     ![new connection](../Images/new-connection-azure-blob-storage.png)
 
 8. On the next screen of the **New connection** wizard, enter the following details and select **Create** to create the connection to the data source.
 
-    | Propery         | Value     |
-    |--------------|-----------|
-    | Account name or URI | `https://azuresynapsestorage.blob.core.windows.net/sampledata`      |
-    | Connection      | Create new connection  |
-    | Connection name      | wwisampledata  |
-    | Authentication kind      | Anonymous  |
+    | Propery             | Value                                                          |
+    |---------------------|----------------------------------------------------------------|
+    | Account name or URI | `https://azuresynapsestorage.blob.core.windows.net/sampledata` |
+    | Connection          | Create new connection                                          |
+    | Connection name     | wwisampledata                                                  |
+    | Authentication kind | Anonymous                                                      |
 
     ![conn settings details](../Images/connection-settings-details.png)
 
 9. Once the new connection is created, return to the **Source** tab of the copy data activity, and the newly created connection is selected by default. Specify the following properties before moving to the destination settings.
 
-    |Property | Value |
-    |--------------|-----------|
-    |Data store type    | External|
-    |Connection |   wwisampledata |
-    |File path type | File path |
-    |File path | Container name (first text box): sampledata; Directory name (second text box): WideWorldImportersDW/parquet/full |
-    |Recursively    | Checked |
-    |File Format    | Binary |
+    | Property        | Value                                                                                                            |
+    |-----------------|------------------------------------------------------------------------------------------------------------------|
+    | Data store type | External                                                                                                         |
+    | Connection      | wwisampledata                                                                                                    |
+    | File path type  | File path                                                                                                        |
+    | File path       | Container name (first text box): sampledata; Directory name (second text box): WideWorldImportersDW/parquet/full |
+    | Recursively     | Checked                                                                                                          |
+    | File Format     | Binary                                                                                                           |
 
     ![source tab](/FromZeroToHero_Parma/Images/source-tab-details.png)
 
 10. Under the **Destination** tab of the selected copy data activity, specify the following properties:
 
-    |Property| Value |
-    |--------------|-----------|
-    |Data store type    | Workspace |
-    |Workspace data store type  | Lakehouse |
-    |Lakehouse  | Bronze |
-    |Root Folder    | Files |
-    |File path  | Directory name (first text box): wwi-raw-data|
-    |File Format    | Binary |
+    | Property                  | Value                                         |
+    |---------------------------|-----------------------------------------------|
+    | Data store type           | Workspace                                     |
+    | Workspace data store type | Lakehouse                                     |
+    | Lakehouse                 | Bronze                                        |
+    | Root Folder               | Files                                         |
+    | File path                 | Directory name (first text box): wwi-raw-data |
+    | File Format               | Binary                                        |
 
     ![dest tab](../Images/destination-tab-details.png)
 
