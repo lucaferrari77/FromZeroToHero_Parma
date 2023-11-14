@@ -37,6 +37,9 @@ Now you will learn how to import data from Csv files using a Dataflow Gen2 in Mi
     ![Dataflow Gen2](/FromZeroToHero_Parma/Images/load-data-lakehouse-option.png)
 
 3. On the new dataflow pane, select Import from a Text/CSV file.
+
+    ![Import CSV](/FromZeroToHero_Parma/Images/import-from-csv.png)
+
 4. On the Connect to data source pane, select the Upload file radio button. Drag and drop the dimension_customer.csv file that you downloaded in step 1. After the file is uploaded, select Next.
 
     ![Connection Setting](../Images/connection-settings-upload.png)
