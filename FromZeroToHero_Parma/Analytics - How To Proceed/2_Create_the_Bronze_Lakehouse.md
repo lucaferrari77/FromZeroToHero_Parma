@@ -6,9 +6,9 @@
 
 The **bronze layer** contains unvalidated data. Data ingested in the bronze layer typically:
 
-Maintains the raw state of the data source.
-Is appended incrementally and grows over time.
-Can be any combination of streaming and batch transactions.
+- Maintains the raw state of the data source.
+- Is appended incrementally and grows over time.
+- Can be any combination of streaming and batch transactions.
 
 The **silver layer** represents a validated, enriched version of our data that can be trusted for downstream analytics. 
 
