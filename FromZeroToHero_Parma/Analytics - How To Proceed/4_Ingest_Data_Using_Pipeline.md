@@ -61,12 +61,14 @@ In this section, you use the **Copy data activity** of the **Data Factory pipeli
    ![dest tab](../Images/destination-tab-details.png)
 
 11. Select the **Save** button on the top ribbon (under **Home**) to save your changes, and select **Run** to execute your pipeline and its activity. You can also schedule pipelines to refresh data at defined intervals to meet your business requirements. For this tutorial, we run the pipeline only once by clicking on **Run** button. It can take few minutes to complete.
-    
-12. You can monitor the execution of the pipeline and its activity under the Output tab, which appears when you click anywhere on the canvas. Optionally, you can select the glasses icon, which appears when you hover over the name, to look at the details of the data transfer.
-   ![run pipeline](../Images/save-run-output-tab.png)
 
-13. Once the data is copied, go to the items view of the workspace and select your new lakehouse (wwilakehouse) to launch the **Lakehouse explorer**.
-   ![validate copy](../Images/validate-destination-table.png)
+12. You can monitor the execution of the pipeline and its activity under the Output tab, which appears when you click anywhere on the canvas. Optionally, you can select the glasses icon, which appears when you hover over the name, to look at the details of the data transfer.
+
+    ![run pipeline](../Images/save-run-output-tab.png)
+
+13. Once the data is copied, go to the items view of the workspace and select your new lakehouse (Bronze) to launch the **Lakehouse explorer**.
+
+    ![validate copy](../Images/validate-destination-table.png)
 
 [**Go to the next step**](/FromZeroToHero_Parma/Analytics%20-%20How%20To%20Proceed/5_Prepare_Delta_Tables.md)
 
