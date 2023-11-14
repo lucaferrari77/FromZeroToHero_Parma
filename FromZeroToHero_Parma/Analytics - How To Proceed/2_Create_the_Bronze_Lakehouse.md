@@ -16,11 +16,16 @@ This **gold layer** is often highly refined and aggregated, containing data that
 
 ## Create the Bronze layer with a lakehouse
 
-1. From the previously created Workspace, select Lakehouse to create a lakehouse
-   
-2. In the New lakehouse dialog box, enter **Bronze** in the Name field.
-   
-3. Select **Create** to create and open the new lakehouse.
+1. Select the Data Engineering experience.
+
+    ![Data Engineering Experience](../Images/select-data-engineering-experience.png)
+
+2. From the previously created Workspace, select New>Lakehouse to create a lakehouse.
+
+    ![New Lakehouse](../Images/new-lakehouse.png)
+
+3. In the New lakehouse dialog box, enter **Bronze** in the Name field.
+4. Select **Create** to create and open the new lakehouse.
 
 ## Ingest Sample data
 
