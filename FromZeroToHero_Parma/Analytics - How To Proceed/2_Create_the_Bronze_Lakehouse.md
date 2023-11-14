@@ -50,15 +50,16 @@ Now you will learn how to import data from Csv files using a Dataflow Gen2 in Mi
     ![query settings](../Images/query-settings-publish.png)
 
 7. A spinning circle next to the dataflow's name indicates publishing is in progress in the item view. When publishing is complete, select the ... and select **Properties**. Rename the dataflow to *Load Lakehouse Table* and select Save.
-8. Once the dataflow is refreshed, select your new lakehouse in the left navigation panel to view the **dimension_customer** delta table. Select the table to preview its data. You can also use the SQL endpoint of the lakehouse to query the data with SQL statements. Select **SQL analytics endpoint** from the **Lakehouse** drop-down menu at the top right of the screen.
+8. Wait for the dataflow to refresh.
+9. Once the dataflow is refreshed, select your new lakehouse in the left navigation panel to view the **dimension_customer** delta table. Select the table to preview its data. You can also use the SQL endpoint of the lakehouse to query the data with SQL statements. Select **SQL analytics endpoint** from the **Lakehouse** drop-down menu at the top right of the screen.
 
     ![query settings](../Images/select-sql-endpoint.png)
 
-9. Select the dimension_customer table to preview its data or select New SQL query to write your SQL statements.</br>  
+10. Select the dimension_customer table to preview its data or select New SQL query to write your SQL statements.</br>  
 
     ![SQL Endpoint](/FromZeroToHero_Parma/Images/warehouse-mode-new-sql.png)
 
-10. Using the Default SQL endpoint you can run T-SQL code to explore the data. The following sample query aggregates the row count based on the *BuyingGroup* column of the *dimension_customer* table. SQL query files are saved automatically for future reference, and you can rename or delete these files based on your need. To run the script, select the Run icon at the top of the script file.
+11. Using the Default SQL endpoint you can run T-SQL code to explore the data. The following sample query aggregates the row count based on the *BuyingGroup* column of the *dimension_customer* table. SQL query files are saved automatically for future reference, and you can rename or delete these files based on your need. To run the script, select the Run icon at the top of the script file.
   
     ``` sql
     SELECT BuyingGroup, Count(*) AS Total
