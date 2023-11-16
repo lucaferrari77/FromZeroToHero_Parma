@@ -6,13 +6,15 @@ In traditional DirectQuery mode, the Power BI engine directly queries the data f
 
 DirectLake mode now eliminates this import requirement by loading the data files directly into memory. Because there's no explicit import process, it's possible to pick up any changes at the source as they occur, thus combining the advantages of DirectQuery and import mode while avoiding their disadvantages. DirectLake mode is therefore the ideal choice for analyzing very large datasets and datasets with frequent updates at the source.
 
-1. From your **Gold** lakehouse, select SQL endpoint from the Lakehouse drop-down menu at the top right of the screen.</br>  
-   ![report1](../Images/report_1.png)
+1. From your **Gold** lakehouse, select SQL endpoint from the Lakehouse drop-down menu at the top right of the screen.
 
-2. From the SQL endpoint pane, you should be able to see all the tables you created. If you don't see them yet, select the **Refresh** icon at the top. Next, select the **Model** tab at the bottom to open the default Power BI dataset.</br>  
-   ![report2](../Images/report_2.png)
+    ![report1](../Images/report_1.png)
 
-3. For this data model, you need to define the relationship between different tables so that you can create reports and visualizations based on data coming across different tables. From the **FactSales** table, drag the **CityKey** field and drop it on the **CityKey** field in the **DimCity** table to create a relationship. The Create Relationship dialog box appears.</br>  
+2. From the SQL endpoint pane, you should be able to see all the tables you created. If you don't see them yet, select the **Refresh** icon at the top. Next, select the **Model** tab at the bottom to open the default Power BI dataset.
+
+    ![report2](../Images/report_2.png)
+
+3. For this data model, you need to define the relationship between different tables so that you can create reports and visualizations based on data coming across different tables. From the **FactSales** table, drag the **CityKey** field and drop it on the **CityKey** field in the **DimCity** table to create a relationship. The Create Relationship dialog box appears.
 
 4. In the Create Relationship dialog box:
 
@@ -34,10 +36,10 @@ DirectLake mode now eliminates this import requirement by loading the data files
 
 5. Next, add these relationships with the same Create Relationship settings as shown above but with the following tables and columns:
 
-   - StockItemKey(FactSales) - StockItemKey(DimStock_item)
-   - Salespersonkey(FactSales) - EmployeeKey(DimEmployee)
-   - CustomerKey(FactSales) - CustomerKey(DimCustomer)
-   - InvoiceDateKey(FactSales) - Date(DimDate)
+    - StockItemKey(FactSales) - StockItemKey(DimStock_item)
+    - Salespersonkey(FactSales) - EmployeeKey(DimEmployee)
+    - CustomerKey(FactSales) - CustomerKey(DimCustomer)
+    - InvoiceDateKey(FactSales) - Date(DimDate)
 
     After you add these relationships, your data model is ready for reporting as shown in the following image:
 
@@ -45,13 +47,13 @@ DirectLake mode now eliminates this import requirement by loading the data files
 
 6. Select **New report** to start creating reports/dashboards in Power BI. On the Power BI report canvas, you can create reports to meet your business requirements by dragging required columns from the **Data** pane to the canvas and using one or more of available visualizations.
 
-   ![report5](/FromZeroToHero_Parma/Images/report_5.png)
+    ![report5](/FromZeroToHero_Parma/Images/report_5.png)
 
 7. Add a title:
 
-   1. In the Ribbon, select **Text box**.
-   2. Type in **WW Importers Profit Reporting**.
-   3. Highlight the text and increase size to 20 and place in the upper left of the report page.
+    1. In the Ribbon, select **Text box**.
+    2. Type in **WW Importers Profit Reporting**.
+    3. Highlight the text and increase size to 20 and place in the upper left of the report page.
 
 8. Add a Card
 
@@ -89,6 +91,7 @@ DirectLake mode now eliminates this import requirement by loading the data files
 12. Click anywhere on the blank canvas (or press the Esc key) so the stacked area chart is no longer selected.
 
 13. Build a column chart:
+
     1. On the **Visualizations** pane, select the Stacked column chart visual.</br>  
        ![select stacked](../Images/select-stacked-column-chart.png)
     2. On the Data pane, expand **FactSales** and check the box next to **Profit**. This selection adds the field to the Y-axis.
