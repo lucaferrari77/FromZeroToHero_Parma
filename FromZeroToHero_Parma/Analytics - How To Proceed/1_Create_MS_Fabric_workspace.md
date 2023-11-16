@@ -6,14 +6,16 @@ In this step, you create a Fabric workspace. The workspace contains all the item
 
 1. Sign in to [Power BI](https://powerbi.com/)
    
-2. Select **Workspaces** and **New workspace**<br>  
-      ![New workspace](../Images/create-new-workspace.png).
+2. Select **Workspaces** and **New workspace**
 
-3. Fill out the Create a workspace form with the following details:
+    ![New workspace](../Images/create-new-workspace.png).
+
+4. Fill out the Create a workspace form with the following details:
     1. Name: Enter *Fabric Lakehouse Tutorial*, and any extra characters to make the name unique.
    
-    1. Description: Enter an optional description for your workspace.</br>  
-      ![New Workspace details](../Images/create-workspace-details.png)
+    1. Description: Enter an optional description for your workspace.
+  
+        ![New Workspace details](../Images/create-workspace-details.png)
    
     1. **Advanced:** Under License mode, select Premium or Trial capacity and then choose a premium capacity that you have access to.
 
@@ -25,6 +27,6 @@ In this step, you create a Fabric workspace. The workspace contains all the item
         
         ![Trial Capacity](../Images/select-trial-capacity.png)
    
-4. Select **Apply** to create and open the workspace
+5. Select **Apply** to create and open the workspace
 
 [**Go to the next step**](/FromZeroToHero_Parma/Analytics%20-%20How%20To%20Proceed/2_Create_the_Bronze_Lakehouse.md)
