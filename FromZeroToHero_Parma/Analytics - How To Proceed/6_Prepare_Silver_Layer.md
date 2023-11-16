@@ -2,6 +2,8 @@
 
 The **silver layer** represents a validated, enriched version of our data that can be trusted for downstream analytics. 
 
+The team responsible for the Silver layer has strong background on SQL Server and T-SQL programming, so they decided to use a Warehouse to host the layer in order to reuse most of their existing skills.
+
 ## Create the Silver layer with a warehouse
 
 1. From the previously created Workspace, select **Warehouse** to create a [new warehouse](https://learn.microsoft.com/en-us/fabric/get-started/decision-guide-data-store)
